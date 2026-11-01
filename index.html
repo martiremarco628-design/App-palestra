@@ -33,6 +33,19 @@
     #etichetta { flex: 1; font-size: 14px; }
     .cronometro button { padding: 10px 14px; }
     #azzera { background: #555; }
+        /* Adattamento schermi piccoli */
+    * { box-sizing: border-box; }
+    input, select { width: 100%; min-width: 0; }
+
+    @media (max-width: 600px) {
+      body { padding: 10px 10px 100px; }
+      th, td { padding: 6px 3px; font-size: 13px; word-break: break-word; }
+      .azioni { white-space: normal; }
+      .azioni button { display: block; width: 100%; margin: 3px 0; padding: 6px 4px; }
+      #display { font-size: 26px; }
+      .cronometro { gap: 6px; padding: 10px; }
+      .cronometro button { padding: 10px; }
+    }
   </style>
 </head>
 <body>
