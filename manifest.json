@@ -1,6 +1,6 @@
 {
-  "name": "MM gym",
-  "short_name": "MM gym",
+  "name": "MM Gym",
+  "short_name": "MM Gym",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f2f2f2",
